@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.btnSubmit {
+    margin-top: 20px;
+    width: 100px;
+    height: 28px;
+    border: 3px solid rebeccapurple;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background-color: rebeccapurple;
+    color: white;
+    border: 3px solid white;
+    transition: 0.25s;
+    transform: scale(1.08);
+}
+
+.activeDiv {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.btnGetir {
+    margin-left: 44.9rem;
+    margin-top: 25px;
+    width: 100px;
+    height: 28px;
+    border: 3px solid rebeccapurple;
+    border-radius: 20px;
+    color: black;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btnGetir:hover {
+    background-color: rebeccapurple;
+    color: white;
+    border: 3px solid white;
+    transition: 0.25s;
+    transform: scale(1.08);
+}
+
+.btnDeleted {
+    width: 30px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 130px;
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnDeleted:hover {
+    background-color: lightgreen;
+    color: white;
+    transition: 0.25s;
+    transform: scale(1.08);
+}
+.textGörev{
+    padding: 10px;
+}
+.textGörevText{
+    padding: 35px;
+}
